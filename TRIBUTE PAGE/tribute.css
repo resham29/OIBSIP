@@ -1,0 +1,159 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-family: 'DM Sans', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #669999;
+    font-weight: bold;
+}
+
+.navbar-text {
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+}
+
+.navbar_items{
+    display: flex;
+    column-gap: 30px;
+}
+
+.navbar-links{
+    cursor: pointer;
+    display: flex;
+    column-gap: 30px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.navbar-items{
+    color: black;
+    /* background-color: #669988;; */
+    padding: 10px 25px;
+    border-radius: 50px;
+    border: 1px solid #cccccc;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'DM Sans', sans-serif;
+}
+
+
+/* HOME */
+.home{
+    display: flex;
+}
+
+.home-text{
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0 0 150px;
+    font-weight: 500;
+    font-size: 40px;
+    align-items: flex-start;
+    row-gap: 20px;
+}
+
+.home-text-heading{
+    display: flex;
+    flex-direction: column;
+    font-size: 50px;
+}
+
+.home-text-heading-black{
+    font-weight: 700;
+}
+
+.home-text-heading-green{
+    font-weight: 700;
+    color: #669998;
+}
+
+.home-text-para{
+    font-size: 18px;
+    width: 70%;
+}
+
+.home-background{
+    display: flex; 
+    background-color: #669988 
+}
+
+.img2{
+    padding: 40px;
+    border-radius: 50px;
+    width: 400px;
+    position: relative;
+    right: 200px;
+    cursor: pointer;
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 0;
+}
+
+#awards {
+	display: flex;
+	flex-direction: column;
+	padding-top: 65px;
+}
+
+.award {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 0 90px 40px 90px;
+}
+
+.awards-left,
+.awards-right {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 488px;
+	padding: 20px;
+	margin: 18px 0;
+}
+
+.poster {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	background-color: #f2f2f2;
+	padding: 20px;
+	margin: 20px 10px;
+	border-radius: 12px;
+	border: 4px dashed #669999;
+	box-shadow: 5px 10px 14px rgb(81, 82, 82, 0.4);
+	width: 428px;
+}
+
+.poster img {
+	width: 150px;
+	height: 150px;
+	border-radius: 100%;
+	border: 1px solid #cccccc;
+}
+
+.poster ul {
+	padding-left: 30px;
+}
